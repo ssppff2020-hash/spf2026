@@ -1,0 +1,290 @@
+term,zh,rule,note
+Large Language Model,大语言模型,translate,首现全称后简称 LLM
+LLM,LLM,keep,不译
+token,token,keep,不译作词元
+context window,上下文窗口,translate,
+context rot,上下文腐化,translate,Chroma 论文概念
+context engineering,上下文工程,translate,
+prompt,提示词,translate,
+prompt engineering,提示工程,translate,
+system prompt,系统提示词,translate,
+prompt injection,提示注入,translate,安全语境固定
+few-shot,少样本,translate,
+zero-shot,零样本,translate,
+chain-of-thought,思维链,translate,缩写 CoT
+hallucination,幻觉,translate,
+temperature,温度,translate,首现双语
+fine-tuning,微调,translate,
+RLHF,基于人类反馈的强化学习,translate,首现双语
+transformer,Transformer,keep,
+attention,注意力,translate,
+embedding,嵌入,translate,首现双语
+RAG,检索增强生成,translate,首现双语
+retrieval-augmented generation,检索增强生成,translate,
+evaluation,评测,translate,不译评估
+evals,评测,translate,
+benchmark,基准测试,translate,
+needle in a haystack,大海捞针,translate,缩写 NIAH
+distractor,干扰项,translate,
+semantic similarity,语义相似度,translate,
+AI agent,AI 智能体,translate,不译代理
+agent,智能体,translate,
+agentic,智能体化的,translate,
+coding agent,编程智能体,translate,
+subagent,子智能体,translate,
+multi-agent system,多智能体系统,translate,
+tool use,工具调用,translate,
+function calling,函数调用,translate,
+Model Context Protocol,模型上下文协议,translate,缩写 MCP
+MCP server,MCP 服务器,translate,
+MCP registry,MCP 注册表,translate,
+MCP client,MCP 客户端,translate,
+scaffolding,scaffolding,keep,无稳定中译
+vibe coding,vibe coding,keep,课程主题词
+spec-driven development,规格驱动开发,translate,
+PRD,产品需求文档,translate,首现全称
+design doc,设计文档,translate,
+sandbox,沙箱,translate,
+guardrails,护栏,translate,首现双语
+hooks,钩子,translate,首现双语
+slash command,斜杠命令,translate,
+long-horizon task,长周期任务,translate,
+human-in-the-loop,人在回路,translate,
+permission model,权限模型,translate,
+SAST,静态应用安全测试,translate,首现全称
+DAST,动态应用安全测试,translate,首现全称
+SCA,软件成分分析,translate,首现全称
+vulnerability,漏洞,translate,
+exploit,利用,translate,首现双语
+remote code execution,远程代码执行,translate,缩写 RCE
+CVE,CVE 编号,keep,
+OWASP Top 10,OWASP Top 10,keep,
+broken access control,失效的访问控制,translate,OWASP 官方中译
+secret,密钥,translate,首现双语
+credential,凭据,translate,
+threat model,威胁模型,translate,
+attack surface,攻击面,translate,
+jailbreak,越狱,translate,
+exfiltration,数据外泄,translate,
+supply chain attack,供应链攻击,translate,
+code review,代码评审,translate,不译代码审查
+pull request,拉取请求,translate,后简称 PR
+diff,差异,translate,首现双语
+merge,合并,translate,
+lint,lint 检查,keep,
+test coverage,测试覆盖率,translate,
+unit test,单元测试,translate,
+integration test,集成测试,translate,
+regression,回归,translate,首现双语
+refactor,重构,translate,
+tech debt,技术债,translate,
+code smell,代码异味,translate,
+LGTM,LGTM,keep,
+Site Reliability Engineering,站点可靠性工程,translate,缩写 SRE
+observability,可观测性,translate,
+telemetry,遥测数据,translate,
+tracing,追踪,translate,
+span,span,keep,
+metric,指标,translate,
+on-call,值班,translate,首现双语
+incident,事故,translate,
+postmortem,事故复盘,translate,首现双语
+SLO,服务级目标,translate,首现全称
+SLI,服务级指标,translate,首现全称
+error budget,错误预算,translate,
+toil,杂务,translate,首现双语
+MTTR,平均恢复时间,translate,首现全称
+root cause analysis,根因分析,translate,
+Kubernetes,Kubernetes,keep,可简称 K8s
+After Action Review,行动后复盘,translate,缩写 AAR
+deliverable,交付物,translate,
+rubric,评分标准,translate,首现双语
+coverage,覆盖度,translate,
+glossary,术语表,translate,
+pipeline,流水线,translate,
+reproducible,可复跑,translate,不译可复现
+QA,质量抽检,translate,
+segmentation,分段,translate,
+machine translation,机器翻译,translate,首现双语
+post-editing,译后编辑,translate,
+context poisoning,上下文毒化,translate,v1.3回填
+context distraction,上下文干扰,translate,v1.3回填
+context confusion,上下文混淆,translate,v1.3回填
+context clash,上下文冲突,translate,v1.3回填
+context quarantine,上下文隔离区,translate,v1.3回填
+needle,针,translate,v1.3回填
+haystack,干草堆,translate,v1.3回填
+fact retrieval,事实检索,translate,v1.3回填
+abstention,拒绝作答,translate,v1.3回填
+lossy projection,有损投影,translate,v1.3回填
+compaction,压缩,translate,v1.3回填
+interleaved thinking,交错思考,translate,v1.3回填
+reasoning model,推理模型,translate,v1.3回填
+frontier model,前沿模型,translate,v1.3回填
+autoregressive,自回归,translate,v1.3回填
+quantization（quantized）,量化,translate,v1.3回填
+reranker,重排序器,translate,v1.3回填
+maximal marginal relevance,最大边际相关,translate,v1.3回填
+cosine similarity,余弦相似度,translate,v1.3回填
+normalized Levenshtein distance,归一化 Levenshtein 距离,translate,v1.3回填
+LLM judge,LLM 裁判,translate,v1.3回填
+beam search,束搜索,translate,v1.3回填
+playground,练习场,translate,v1.3回填
+prompt hardening,提示词加固,translate,v1.3回填
+agentic loop,智能体循环,translate,v1.3回填
+agentic application,智能体化的应用,translate,v1.3回填
+AI-native,AI 原生,translate,v1.3回填
+orchestration,编排,translate,v1.3回填
+orchestration agent,编排智能体,translate,v1.3回填
+Agentic Development Environment,智能体化开发环境,translate,v1.3回填
+Agent Modality,智能体模态,translate,v1.3回填
+stateful agent,有状态的智能体,translate,v1.3回填
+coordination protocol,协调协议,translate,v1.3回填
+irreducible interdependence,不可约的相互依赖,translate,v1.3回填
+tool chaining,工具链式调用,translate,v1.3回填
+tool annotations,工具注解,translate,v1.3回填
+tool schema,工具模式,translate,v1.3回填
+tool input sanitization,工具输入清洗,translate,v1.3回填
+verifier,验证器,translate,v1.3回填
+namespacing,命名空间,translate,v1.3回填
+affordance,可供性,translate,v1.3回填
+held-out test set,留出测试集,translate,v1.3回填
+fan-out,扇出（fan-out）,translate,v1.3回填
+classifier model,分类器模型,translate,v1.3回填
+finding,发现（finding）,translate,v1.3回填
+worktree,worktree,keep,v1.3回填
+elicitation,elicitation,keep,v1.3回填
+Streamable HTTP transport,Streamable HTTP 传输方式,translate,v1.3回填
+Dynamic Client Registration (DCR),动态客户端注册（DCR）,translate,v1.3回填
+denylist,拒绝名单,translate,v1.3回填
+sub-registry,子注册表,translate,v1.3回填
+host application,宿主应用,translate,v1.3回填
+identity spoofing and impersonation,身份伪造与冒充,translate,v1.3回填
+agent hijacking,智能体劫持,translate,v1.3回填
+agent communication poisoning,智能体通信投毒,translate,v1.3回填
+intent breaking and goal manipulation,意图破坏与目标操纵,translate,v1.3回填
+tool misuse,工具滥用,translate,v1.3回填
+tool vulnerability scanning,工具漏洞扫描,translate,v1.3回填
+resource overload,资源过载,translate,v1.3回填
+privilege escalation,权限提升,translate,v1.3回填
+lateral movement,横向移动,translate,v1.3回填
+defense-in-depth,纵深防御,translate,v1.3回填
+least-privilege,最小特权,translate,v1.3回填
+shadow AI,影子 AI,translate,v1.3回填
+broken object-level authorization (BOLA),对象级授权失效,translate,v1.3回填
+server-side request forgery (SSRF),服务端请求伪造,translate,v1.3回填
+path traversal,路径遍历,translate,v1.3回填
+taint tracking,污点追踪,translate,v1.3回填
+inter-procedural taint flow,过程间污点流,translate,v1.3回填
+syscall filtering,系统调用过滤,translate,v1.3回填
+code executor sandboxing,代码执行器沙箱化,translate,v1.3回填
+arbitrary code execution,任意代码执行,translate,v1.3回填
+conditional prompt injection,条件提示注入,translate,v1.3回填
+info stealer,信息窃取程序,translate,v1.3回填
+botnet,僵尸网络,translate,v1.3回填
+command and control server,命令与控制服务器,translate,v1.3回填
+cryptojacking,加密货币劫持挖矿,translate,v1.3回填
+data loss prevention (DLP),数据防泄漏,translate,v1.3回填
+service account,服务账户,translate,v1.3回填
+metadata service,元数据服务,translate,v1.3回填
+mounted volume,挂载卷,translate,v1.3回填
+bug bounty,漏洞赏金,translate,v1.3回填
+incidence rate,发生率,translate,v1.3回填
+patch Tuesday,补丁星期二,translate,v1.3回填
+ZombAI,ZombAI,keep,v1.3回填
+false positive,误报,translate,v1.3回填
+false negative,漏报,translate,v1.3回填
+true positive rate,真阳率,translate,v1.3回填
+YOLO mode,YOLO 模式,translate,v1.3回填
+payload,payload,keep,v1.3回填
+peer review,同行评审,translate,v1.3回填
+inspection,检查,translate,v1.3回填
+walkthrough,走查,translate,v1.3回填
+peer desk check,同行桌面检查,translate,v1.3回填
+changeset,改动集,translate,v1.3回填
+code owner,代码负责人,translate,v1.3回填
+reviewer,评审人,translate,v1.3回填
+comment resolution rate,评论解决率,translate,v1.3回填
+useful ratio,有用率,translate,v1.3回填
+readability,可读性,translate,v1.3回填
+readability mentor,readability 导师,translate,v1.3回填
+ground truth,人工标注基准,translate,v1.3回填
+intrinsic,内在评测,translate,v1.3回填
+extrinsic evaluation,外部评测,translate,v1.3回填
+acceptance criteria,验收标准,translate,v1.3回填
+nitpick,挑刺,translate,v1.3回填
+off-by-one,差一,translate,v1.3回填
+N+1 query,N+1 查询,translate,v1.3回填
+interface boundary,接口边界,translate,v1.3回填
+mental model,心智模型,translate,v1.3回填
+hierarchy of needs,需求层次,translate,v1.3回填
+shepherding,全程照看,translate,v1.3回填
+teamfooding,团队内测,translate,v1.3回填
+dogfooding,吃自家狗粮,translate,v1.3回填
+tribal knowledge,部落知识,translate,v1.3回填
+fix forward,向前修复,translate,v1.3回填
+first responder,第一响应人,translate,v1.3回填
+notification fatigue,通知疲劳,translate,v1.3回填
+staff engineer,资深工程师,translate,v1.3回填
+anti-pattern,反模式,translate,v1.3回填
+on-premises,本地部署,translate,v1.3回填
+instrumentation,插桩,translate,v1.3回填
+high-cardinality,高基数,translate,v1.3回填
+exemplar,范例追踪链,translate,v1.3回填
+baggage,baggage,keep,v1.3回填
+noisy neighbor,吵闹邻居,translate,v1.3回填
+runbook,运行手册,translate,v1.3回填
+incident lifecycle,事故生命周期,translate,v1.3回填
+change gate,变更关卡,translate,v1.3回填
+MTTF,平均无故障时间,translate,v1.3回填
+phased rollout,分阶段发布,translate,v1.3回填
+blame-free postmortem culture,无指责的事故复盘文化,translate,v1.3回填
+Wheel of Misfortune,厄运轮盘,translate,v1.3回填
+provisioning,资源供给,translate,v1.3回填
+utilization,利用率,translate,v1.3回填
+pager,值班手机,translate,v1.3回填
+sysadmin,系统管理员,translate,v1.3回填
+organic,自然增长,translate,v1.3回填
+inorganic growth,非自然增长,translate,v1.3回填
+sharding,分片,translate,v1.3回填
+deadlock,死锁,translate,v1.3回填
+race condition,竞态条件,translate,v1.3回填
+connection pool,连接池,translate,v1.3回填
+directed acyclic graph,有向无环图,translate,v1.3回填
+auto-scaling,自动扩缩容,translate,v1.3回填
+boilerplate,样板代码,translate,v1.3回填
+hot path,热路径,translate,v1.3回填
+cold-start problem,冷启动问题,translate,v1.3回填
+drive-by fix,顺手修复,translate,v1.3回填
+mono-repo（monorepo）,单体仓库,translate,v1.3回填
+feature flag,功能开关,translate,v1.3回填
+staging environment,预发布环境,translate,v1.3回填
+bisect,二分定位,translate,v1.3回填
+fixture,基准文件（fixture）,translate,v1.3回填
+property-based test,基于性质的测试,translate,v1.3回填
+source of truth,单一权威来源,translate,v1.3回填
+call stack,调用栈,translate,v1.3回填
+stack trace,堆栈跟踪,translate,v1.3回填
+checkpoint,检查点,translate,v1.3回填
+edge case,边缘用例,translate,v1.3回填
+one-shot,一次性完成,translate,v1.3回填
+landing page,落地页,translate,v1.3回填
+MVP,最小可行产品,translate,v1.3回填
+PM,产品经理,translate,v1.3回填
+wireframe,线框图,translate,v1.3回填
+ticket,工单,translate,v1.3回填
+state management,状态管理,translate,v1.3回填
+transcript,对话记录,translate,v1.3回填
+webhook,webhook,keep,v1.3回填
+proof-of-concept,概念验证,translate,v1.3回填
+Zero Data Retention,零数据保留,translate,v1.3回填
+GA launch,GA 发布,translate,v1.3回填
+ROI,投资回报率,translate,v1.3回填
+CI/CD,持续集成/持续交付,translate,首现全称；见 §4
+IAST,交互式应用安全测试（IAST）,translate,首现全称；与 SAST/DAST 并列，不可混用
+RASP,运行时应用自我保护（RASP）,translate,首现全称
+ASPM,应用安全态势管理（ASPM）,translate,首现全称
+CWE,CWE,keep,软件弱点枚举，保留英文
+CWSS,CWSS,keep,保留英文
+SARIF,SARIF,keep,静态分析结果交换格式，保留英文
+patch,补丁,translate
